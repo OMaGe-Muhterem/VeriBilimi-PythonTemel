@@ -1,0 +1,16 @@
+[7,3,5,8,2,9,4,15,6] dizinin elemanlarını inserting-sort ile sıralarken önce en küçük eleman belirlenir.
+Ardından dizinin ilk elemanı ile yer değitirilir. Sonra her seferinde diğer elemanlar (dizide sıralanan elemanların dışındaki-sağ tarafta kalanlar) için bu işlem tekrarlanır.
+
+1.adım: [2,3,5,8,7,9,4,15,6] 	(en küçük eleman olan 2 yi dizideki ilk eleman olan 7 ile yer değiştirdik)
+
+	 [2,3,5,8,7,9,4,15,6] 	3 zaten (2 dışındaki) en küçük eleman olduğu için değiştirmeye gerek yok
+
+2.adım: [2,3,4,8,7,9,5,15,6] 		4 ile 5 i yer değiştirdik
+
+3.adım: [2,3,4,5,7,9,8,15,6] 		5 ile 8 i yer değiştirdik
+
+4.adım: [2,3,4,5,6,9,8,15,7] 		6 ile 7 yi yer değiştirdik
+
+5.adım: [2,3,4,5,6,7,8,15,9] 		7 ile 9 u yer değiştirdik
+
+böyle devam ettirerek tüm elemanları sıralamış oluruz.
